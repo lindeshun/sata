@@ -1,0 +1,184 @@
+2019-12-06 17:17:38.194 [main] INFO  com.bees.code.sata.SataApplication - Starting SataApplication on IT41-L-PF1NS1KR with PID 21384 (C:\sata\target\classes started by wb-lds551323 in C:\sata)
+2019-12-06 17:17:38.208 [main] INFO  com.bees.code.sata.SataApplication - The following profiles are active: host
+2019-12-06 17:17:38.286 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@72057ecf: startup date [Fri Dec 06 17:17:38 CST 2019]; root of context hierarchy
+2019-12-06 17:17:40.383 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-06 17:17:40.403 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:17:40.419 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-06 17:17:40.420 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-12-06 17:17:40.432 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;D:\Program Files (x86)\NetSarang\Xftp 6\;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\Program Files\Git\cmd;D:\Program Files\apache-maven-3.5.4\bin;D:\Program Files\TortoiseGit\bin;D:\Program Files\nodejs\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\Users\wb-lds551323\AppData\Local\Microsoft\WindowsApps;C:\Users\wb-lds551323\AppData\Roaming\npm;c:\program files (x86)\mydrivers\drivergenius;c:\program files (x86)\mydrivers\drivergenius\ksoft;D:\windows\System32\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;.]
+2019-12-06 17:17:40.685 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-06 17:17:40.686 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2400 ms
+2019-12-06 17:17:40.948 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-12-06 17:17:40.954 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-06 17:17:40.954 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-06 17:17:40.954 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-06 17:17:40.954 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-06 17:17:41.150 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:17:41.375 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@72057ecf: startup date [Fri Dec 06 17:17:38 CST 2019]; root of context hierarchy
+2019-12-06 17:17:41.462 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postSerialData]}" onto public java.lang.String com.bees.code.sata.controller.QrCodeController.test(java.util.Map<java.lang.String, java.lang.String>)
+2019-12-06 17:17:41.467 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-06 17:17:41.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-06 17:17:41.500 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:17:41.501 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:17:41.721 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-06 17:17:41.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:17:41.766 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-06 17:17:41.864 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 17:17:41.868 [main] INFO  com.bees.code.sata.SataApplication - Started SataApplication in 4.416 seconds (JVM running for 5.179)
+2019-12-06 17:17:41.871 [main] INFO  com.bees.code.sata.task.SerialPortTask - 开启串口任务。
+2019-12-06 17:17:42.088 [main] INFO  com.bees.code.sata.core.SerialPortCore - 总共有2个可用串口：[COM1, COM2]
+2019-12-06 17:17:42.104 [main] INFO  com.bees.code.sata.core.SerialPortCore - 连接串口： COM1 成功
+2019-12-06 17:17:42.104 [main] INFO  com.bees.code.sata.task.SerialPortTask - 向串口发送数据：
+2019-12-06 17:19:37.551 [main] INFO  com.bees.code.sata.SataApplication - Starting SataApplication on IT41-L-PF1NS1KR with PID 9204 (C:\sata\target\classes started by wb-lds551323 in C:\sata)
+2019-12-06 17:19:37.556 [main] INFO  com.bees.code.sata.SataApplication - The following profiles are active: host
+2019-12-06 17:19:37.623 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7193666c: startup date [Fri Dec 06 17:19:37 CST 2019]; root of context hierarchy
+2019-12-06 17:19:39.695 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-06 17:19:39.712 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:19:39.727 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-06 17:19:39.727 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-12-06 17:19:39.739 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;D:\Program Files (x86)\NetSarang\Xftp 6\;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\Program Files\Git\cmd;D:\Program Files\apache-maven-3.5.4\bin;D:\Program Files\TortoiseGit\bin;D:\Program Files\nodejs\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\Users\wb-lds551323\AppData\Local\Microsoft\WindowsApps;C:\Users\wb-lds551323\AppData\Roaming\npm;c:\program files (x86)\mydrivers\drivergenius;c:\program files (x86)\mydrivers\drivergenius\ksoft;D:\windows\System32\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;.]
+2019-12-06 17:19:39.951 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-06 17:19:39.951 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2328 ms
+2019-12-06 17:19:40.194 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-12-06 17:19:40.200 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-06 17:19:40.200 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-06 17:19:40.200 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-06 17:19:40.200 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-06 17:19:40.385 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:19:40.619 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7193666c: startup date [Fri Dec 06 17:19:37 CST 2019]; root of context hierarchy
+2019-12-06 17:19:40.711 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postSerialData]}" onto public java.lang.String com.bees.code.sata.controller.QrCodeController.test(java.util.Map<java.lang.String, java.lang.String>)
+2019-12-06 17:19:40.716 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-06 17:19:40.717 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-06 17:19:40.754 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:19:40.755 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:19:40.943 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-06 17:19:40.956 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:19:40.981 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-06 17:19:41.070 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 17:19:41.075 [main] INFO  com.bees.code.sata.SataApplication - Started SataApplication in 4.114 seconds (JVM running for 4.78)
+2019-12-06 17:19:41.079 [main] INFO  com.bees.code.sata.task.SerialPortTask - 开启串口任务。
+2019-12-06 17:19:41.137 [main] INFO  com.bees.code.sata.core.SerialPortCore - 总共有2个可用串口：[COM1, COM2]
+2019-12-06 17:19:41.154 [main] INFO  com.bees.code.sata.core.SerialPortCore - 连接串口： COM1 成功
+2019-12-06 17:19:41.157 [main] INFO  com.bees.code.sata.task.SerialPortTask - 向串口发送数据：
+2019-12-06 17:19:46.188 [Thread-4] INFO  c.b.code.sata.service.impl.SerialPortServiceImpl - 收到端口消息： 我们都来自earth,{}doyou
+2019-12-06 17:19:47.269 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-06 17:19:47.270 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-06 17:19:47.308 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2019-12-06 17:19:47.340 [http-nio-8080-exec-1] INFO  com.bees.code.sata.controller.QrCodeController - params begin
+2019-12-06 17:19:47.341 [http-nio-8080-exec-1] INFO  com.bees.code.sata.controller.QrCodeController - key:qrCodeData,value:我们都来自earth,{}doyou
+2019-12-06 17:19:47.341 [http-nio-8080-exec-1] INFO  com.bees.code.sata.controller.QrCodeController - params end
+2019-12-06 17:19:47.378 [Thread-4] INFO  com.bees.code.sata.core.SerialReader - http请求结果：码数据接收成功！
+2019-12-06 17:23:50.818 [main] INFO  com.bees.code.sata.SataApplication - Starting SataApplication on IT41-L-PF1NS1KR with PID 21280 (C:\sata\target\classes started by wb-lds551323 in C:\sata)
+2019-12-06 17:23:50.823 [main] INFO  com.bees.code.sata.SataApplication - The following profiles are active: host
+2019-12-06 17:23:50.889 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3835c46: startup date [Fri Dec 06 17:23:50 CST 2019]; root of context hierarchy
+2019-12-06 17:23:52.920 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-06 17:23:52.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:23:52.950 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-06 17:23:52.950 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-12-06 17:23:52.963 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;D:\Program Files (x86)\NetSarang\Xftp 6\;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\Program Files\Git\cmd;D:\Program Files\apache-maven-3.5.4\bin;D:\Program Files\TortoiseGit\bin;D:\Program Files\nodejs\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\Users\wb-lds551323\AppData\Local\Microsoft\WindowsApps;C:\Users\wb-lds551323\AppData\Roaming\npm;c:\program files (x86)\mydrivers\drivergenius;c:\program files (x86)\mydrivers\drivergenius\ksoft;D:\windows\System32\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;.]
+2019-12-06 17:23:53.173 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-06 17:23:53.174 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2284 ms
+2019-12-06 17:23:53.415 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-12-06 17:23:53.421 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-06 17:23:53.421 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-06 17:23:53.421 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-06 17:23:53.422 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-06 17:23:53.619 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:23:53.838 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3835c46: startup date [Fri Dec 06 17:23:50 CST 2019]; root of context hierarchy
+2019-12-06 17:23:53.920 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postSerialData]}" onto public java.lang.String com.bees.code.sata.controller.QrCodeController.test(java.util.Map<java.lang.String, java.lang.String>)
+2019-12-06 17:23:53.924 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-06 17:23:53.925 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-06 17:23:53.961 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:23:53.962 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:23:54.155 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-06 17:23:54.172 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:23:54.196 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-06 17:23:54.292 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 17:23:54.298 [main] INFO  com.bees.code.sata.SataApplication - Started SataApplication in 4.067 seconds (JVM running for 4.733)
+2019-12-06 17:23:54.303 [main] INFO  com.bees.code.sata.task.SerialPortTask - 开启串口任务。
+2019-12-06 17:23:54.353 [main] INFO  com.bees.code.sata.core.SerialPortCore - 总共有2个可用串口：[COM1, COM2]
+2019-12-06 17:23:54.364 [main] INFO  com.bees.code.sata.core.SerialPortCore - 连接串口： COM1 成功
+2019-12-06 17:23:54.365 [main] INFO  com.bees.code.sata.task.SerialPortTask - 向串口发送数据：
+2019-12-06 17:24:05.647 [main] INFO  com.bees.code.sata.SataApplication - Starting SataApplication on IT41-L-PF1NS1KR with PID 21000 (C:\sata\target\classes started by wb-lds551323 in C:\sata)
+2019-12-06 17:24:05.655 [main] INFO  com.bees.code.sata.SataApplication - The following profiles are active: host
+2019-12-06 17:24:05.790 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b7a4e0: startup date [Fri Dec 06 17:24:05 CST 2019]; root of context hierarchy
+2019-12-06 17:24:07.824 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-06 17:24:07.840 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:24:07.853 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-06 17:24:07.854 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-12-06 17:24:07.868 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;D:\Program Files (x86)\NetSarang\Xftp 6\;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\Program Files\Git\cmd;D:\Program Files\apache-maven-3.5.4\bin;D:\Program Files\TortoiseGit\bin;D:\Program Files\nodejs\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\Users\wb-lds551323\AppData\Local\Microsoft\WindowsApps;C:\Users\wb-lds551323\AppData\Roaming\npm;c:\program files (x86)\mydrivers\drivergenius;c:\program files (x86)\mydrivers\drivergenius\ksoft;D:\windows\System32\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;.]
+2019-12-06 17:24:08.077 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-06 17:24:08.077 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2288 ms
+2019-12-06 17:24:08.313 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-12-06 17:24:08.320 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-06 17:24:08.321 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-06 17:24:08.321 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-06 17:24:08.321 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-06 17:24:08.517 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:24:08.756 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b7a4e0: startup date [Fri Dec 06 17:24:05 CST 2019]; root of context hierarchy
+2019-12-06 17:24:08.850 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postSerialData]}" onto public java.lang.String com.bees.code.sata.controller.QrCodeController.test(java.util.Map<java.lang.String, java.lang.String>)
+2019-12-06 17:24:08.856 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-06 17:24:08.857 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-06 17:24:08.894 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:24:08.895 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:24:09.127 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-06 17:24:09.143 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:24:09.167 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-06 17:24:09.273 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 17:24:09.280 [main] INFO  com.bees.code.sata.SataApplication - Started SataApplication in 4.23 seconds (JVM running for 4.901)
+2019-12-06 17:24:09.285 [main] INFO  com.bees.code.sata.task.SerialPortTask - 开启串口任务。
+2019-12-06 17:24:09.334 [main] INFO  com.bees.code.sata.core.SerialPortCore - 总共有2个可用串口：[COM1, COM2]
+2019-12-06 17:24:09.351 [main] INFO  com.bees.code.sata.core.SerialPortCore - 连接串口： COM1 成功
+2019-12-06 17:24:09.351 [main] INFO  com.bees.code.sata.task.SerialPortTask - 向串口发送数据：
+2019-12-06 17:24:34.112 [Thread-4] INFO  c.b.code.sata.service.impl.SerialPortServiceImpl - 收到端口消息： 我们都来自earth,{}doyou
+2019-12-06 17:24:35.145 [http-nio-8080-exec-7] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-06 17:24:35.146 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-06 17:24:35.183 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2019-12-06 17:24:35.217 [http-nio-8080-exec-7] INFO  com.bees.code.sata.controller.QrCodeController - params begin
+2019-12-06 17:24:35.218 [http-nio-8080-exec-7] INFO  com.bees.code.sata.controller.QrCodeController - key:qrCodeData,value:我们都来自earth,{}doyou
+2019-12-06 17:24:35.218 [http-nio-8080-exec-7] INFO  com.bees.code.sata.controller.QrCodeController - params end
+2019-12-06 17:24:35.250 [Thread-4] INFO  com.bees.code.sata.core.SerialReader - http请求结果：码数据接收成功！
+2019-12-06 17:30:25.855 [main] INFO  com.bees.code.sata.SataApplication - Starting SataApplication on IT41-L-PF1NS1KR with PID 2932 (C:\sata\target\classes started by wb-lds551323 in C:\sata)
+2019-12-06 17:30:25.859 [main] INFO  com.bees.code.sata.SataApplication - The following profiles are active: host
+2019-12-06 17:30:25.918 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20ce78ec: startup date [Fri Dec 06 17:30:25 CST 2019]; root of context hierarchy
+2019-12-06 17:30:27.938 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-06 17:30:27.957 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:30:27.976 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-06 17:30:27.976 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-12-06 17:30:27.989 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;D:\Program Files (x86)\NetSarang\Xftp 6\;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\Program Files\Git\cmd;D:\Program Files\apache-maven-3.5.4\bin;D:\Program Files\TortoiseGit\bin;D:\Program Files\nodejs\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\Users\wb-lds551323\AppData\Local\Microsoft\WindowsApps;C:\Users\wb-lds551323\AppData\Roaming\npm;c:\program files (x86)\mydrivers\drivergenius;c:\program files (x86)\mydrivers\drivergenius\ksoft;D:\windows\System32\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;.]
+2019-12-06 17:30:28.229 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-06 17:30:28.229 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2311 ms
+2019-12-06 17:30:28.457 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-12-06 17:30:28.463 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-06 17:30:28.463 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-06 17:30:28.464 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-06 17:30:28.464 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-06 17:30:28.649 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:30:28.868 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20ce78ec: startup date [Fri Dec 06 17:30:25 CST 2019]; root of context hierarchy
+2019-12-06 17:30:28.955 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postSerialData]}" onto public java.lang.String com.bees.code.sata.controller.QrCodeController.test(java.util.Map<java.lang.String, java.lang.String>)
+2019-12-06 17:30:28.962 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-06 17:30:28.963 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-06 17:30:28.992 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:30:28.993 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-06 17:30:29.210 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-06 17:30:29.222 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-06 17:30:29.241 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-06 17:30:29.339 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 17:30:29.345 [main] INFO  com.bees.code.sata.SataApplication - Started SataApplication in 4.061 seconds (JVM running for 4.701)
+2019-12-06 17:30:29.349 [main] INFO  com.bees.code.sata.task.SerialPortTask - 开启串口任务。
+2019-12-06 17:30:29.401 [main] INFO  com.bees.code.sata.core.SerialPortCore - 总共有2个可用串口：[COM1, COM2]
+2019-12-06 17:30:29.413 [main] INFO  com.bees.code.sata.core.SerialPortCore - 连接串口： COM1 成功
+2019-12-06 17:30:29.414 [main] INFO  com.bees.code.sata.task.SerialPortTask - 向串口发送数据：
+2019-12-06 17:41:44.632 [Thread-4] INFO  c.b.code.sata.service.impl.SerialPortServiceImpl - 收到端口消息： ~ ��
+2019-12-06 17:41:45.579 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-06 17:41:45.579 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-06 17:41:45.619 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2019-12-06 17:41:45.649 [http-nio-8080-exec-1] INFO  com.bees.code.sata.controller.QrCodeController - params begin
+2019-12-06 17:41:45.650 [http-nio-8080-exec-1] INFO  com.bees.code.sata.controller.QrCodeController - key:qrCodeData,value:~ ��
+2019-12-06 17:41:45.651 [http-nio-8080-exec-1] INFO  com.bees.code.sata.controller.QrCodeController - params end
+2019-12-06 17:41:45.685 [Thread-4] INFO  com.bees.code.sata.core.SerialReader - http请求结果：码数据接收成功！
+2019-12-06 17:41:57.002 [Thread-4] INFO  c.b.code.sata.service.impl.SerialPortServiceImpl - 收到端口消息： ~ ��
+2019-12-06 17:41:57.011 [http-nio-8080-exec-3] INFO  com.bees.code.sata.controller.QrCodeController - params begin
+2019-12-06 17:41:57.011 [http-nio-8080-exec-3] INFO  com.bees.code.sata.controller.QrCodeController - key:qrCodeData,value:~ ��
+2019-12-06 17:41:57.011 [http-nio-8080-exec-3] INFO  com.bees.code.sata.controller.QrCodeController - params end
+2019-12-06 17:41:57.013 [Thread-4] INFO  com.bees.code.sata.core.SerialReader - http请求结果：码数据接收成功！
